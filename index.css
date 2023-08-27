@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(219, 15%, 77%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.GS {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    font-family: [Outfit]("https: //fonts.google.com/specimen/Outfit");
+    width: 400px;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.GS2{
+    text-align: center;
+    margin: 18px
+}
+
+
+#img1 {
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#text1{
+    font-size: 29px;
+}
+
+#texte2{
+    font-size: 23px;
+    color:  hsl(214, 12%, 74%);
+}
+
+@media screen and (max-width: 430px){
+    .GS{
+        width: 300px;
+        height: 440px;
+    }
+
+    #img1{
+        width: 90%;
+        height: 200px;
+    }
+
+    #text1{
+        font-size: 21px;
+    }
+
+    #texte2{
+        font-size: 19px;
+    }
+}
